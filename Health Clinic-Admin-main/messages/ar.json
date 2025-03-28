@@ -1,0 +1,251 @@
+{
+  
+  "common": {
+    "switchLanguage": "تغيير اللغة",
+  "EGP":"جنيه مصري"
+
+  },
+  "nav":{
+    "Home":"الصفحة الرئيسية",
+    "Patients":"المرضي",
+    "Doctors":"الاطباء",
+    "Labs":"المعامل",
+    "Pharmacies":"الصيدليات",
+    "Medicines":"الادوية",
+    "Tests":"التحاليل"
+    },
+  "search":{
+    "For_Patient":"ابحث عن مريض",
+    "For_Doctor":"ابحث عن طبيب",
+    "For_Question":"ابحث عن سؤال",
+    "For_Lab":"ابحث عن معمل",
+    "For_Pharmacie":"ابحث عن صيدلية",
+  "For_Test":"ابحث عن تحليل",
+  "For_Medicine":"ابحث عن ادوية"
+
+   
+  },
+  "Statistics_Cards": {
+    "Total_Labs": "إجمالي المعامل",
+    "Approved_Labs": "المعامل الموافق عليها",
+    "Pending_Labs": "المعامل قيد الانتظار",
+    "Total_Reservations": "إجمالي الحجوزات",
+    "On_The_App": "على التطبيق",
+    "Total_Patients": "إجمالي المرضى",
+    "Total_Doctors": "إجمالي الأطباء",
+    "Approved_Doctors": "الأطباء الموافق عليهم",
+    "Pending_Doctors": "الأطباء قيد الانتظار",
+    "Total_Pharmacies": "إجمالي الصيدليات",
+    "Approved_Pharmacies": "الصيدليات الموافق عليها",
+    "Pending_Pharmacies": "الصيدليات قيد الانتظار",
+    "Total_Orders": "إجمالي الطلبات",
+    "Total_Medicines": "إجمالي الأدوية",
+    "Approved_Medicines": "الأدوية الموافق عليها",
+    "Pending_Medicines": "الأدوية قيد الانتظار",
+    "Total_Tests": "إجمالي الفحوصات",
+    "Approved_Tests": "الفحوصات الموافق عليها",
+    "Pending_Tests": "الفحوصات قيد الانتظار"
+  },
+  "Product_Modal": {
+    "Test_Details": "تفاصيل التحليل",
+    "Medicine_Details": "تفاصيل الدواء",
+    "Cost": "السعر",
+    "user_email": "ايميل الحساب",
+    "Photo": "الصورة",
+    "Product_Photo": "لا يوجد صورة المنتج",
+    "Accept":"موافقة",
+    "Delete":"مسح",
+
+"Decline":"رفض",
+"Categories":{
+  "Cosmetics": "مستحضرات التجميل",
+  "Hair Care": "العناية بالشعر",
+  "Every Day Essentials": "مستلزمات يومية",
+  "Medical Equipment & Supplies": "المعدات والمستلزمات الطبية",
+  "Mom & Baby": "الأم والطفل",
+  "Sexual Health": "الصحة الجنسية",
+  "Medicine": "ادوية",
+  "Skin Care": "العناية بالبشرة"
+}
+  },
+  "Actor_Modal": {
+    "Doctor_Details": "تفاصيل الطبيب",
+    "Lab_Details": "تفاصيل المعمل",
+    "Pharmacie_Details": "تفاصيل الصيدلية",
+    "Patient_Details": "تفاصيل المريض",
+    "Address": "العنوان",
+    "Phone": "الهاتف",
+    "Age": "العمر",
+    "Gender": "الجنس",
+    "License": "الترخيص",
+    "Accept":"موافقة",
+"Decline":"رفض",
+"male":"ذكر",
+"female":"انثي",
+
+    "Specializations": {
+      "Allergist": "طبيب حساسية",
+      "Cardiologist": "طبيب قلب",
+      "Dermatologist": "طبيب جلدية",
+      "Endocrinologist": "طبيب الغدد الصماء",
+      "Gastroenterologist": "طبيب الجهاز الهضمي",
+      "Gynecologist": "طبيب النساء والتوليد",
+      "Hepatologist": "طبيب الكبد",
+      "Internal Medcine": "طبيب باطني",
+      "Neurologist": "طبيب أعصاب",
+      "Osteopathic": "طبيب عظام",
+      "Otolaryngologist": "طبيب الأنف والأذن والحنجرة",
+      "Pediatrician": "طبيب أطفال",
+      "Phlebologist": "طبيب الأوردة",
+      "Pulmonologist": "طبيب رئة",
+      "Rheumatologists": "طبيب روماتيزم",
+      "Tuberculosis": "طبيب سل"
+    }
+  },
+  "Medicine_Modal":{
+"title":"اضف دواء جديد",
+"edit_title":"تعديل الدواء",
+"Name":"الاسم",
+"Photo":"الصورة",
+"Cost":"السعر",
+"edit_submit":"تعديل",
+"Category":"الفئة",
+"Medicine_Name":"اسم الدواء",
+"Select_Category":"اختار فئة",
+"submit":"اضافة",
+"Categories":{
+  "Cosmetics": "مستحضرات التجميل",
+  "Hair Care": "العناية بالشعر",
+  "Every Day Essentials": "مستلزمات يومية",
+  "Medical Equipment & Supplies": "المعدات والمستلزمات الطبية",
+  "Mom & Baby": "الأم والطفل",
+  "Sexual Health": "الصحة الجنسية",
+  "Medicine": "ادوية",
+  "Skin Care": "العناية بالبشرة"
+},
+"errors":{
+  "Name": "يجب أن يتكون الاسم من حرفين على الأقل.",
+  "Name_Regex": "يمكن أن يحتوي الاسم فقط على أحرف وأرقام ومسافات وأقواس",
+  "Photo": "ملف الصورة غير صالح. يجب أن يكون بتنسيق JPEG أو PNG أو GIF وأقل من 5 ميجابايت.",
+  "Cost": "يجب أن تكون التكلفة رقماً موجباً.",
+  "Category": "الرجاء اختيار فئة."
+}
+},
+"Test_Modal":{
+"title":"اضف تحليل جديد",
+"edit_title":"تعديل التحليل",
+"edit_submit":"تعديل",
+"Name":"الاسم",
+"Test_Name":"اسم التحليل",
+"submit":"اضافة",
+"errors":{
+  "Name": "يجب أن يتكون الاسم من حرفين على الأقل.",
+  "Name_Regex": "يمكن أن يحتوي الاسم فقط على أحرف وأرقام ومسافات وأقواس"
+
+}
+},
+
+  "header":{
+    "Patients_Management":"ادارة المرضي",
+    "Doctors_Management":"ادارة الاطباء",
+    "Labs_Management":"ادارة المعامل",
+    "Pharmacies_Management":"ادارة الصيدليات",
+        "Tests_Management":"ادارة التحاليل",
+      "Medicines_Management":"ادارة الادوية",
+      "Add_New_Medicine":"اضف دواء جديد",
+      "Add_New_Test":"اضف تحليل جديد"
+
+  },
+"actors":{
+  "Patients":"المرضي",
+  "Doctors":"الاطباء",
+  "Labs":"المعامل",
+  "Pharmacies":"الصيدليات",
+  "Medicines":"الادوية",
+  "Tests":"التحاليل"
+  },
+  "table":{
+    "Name":"الاسم",
+    "Email":"الايميل",
+    "Actions":"الافعال",
+    "Category":"فئة",
+    "user_email":"ايميل الحساب",
+    "view":"اظهر",
+    "Approved":"الموافق عليه",
+    "edit":"تعديل",
+    "Pending":"قيد الانتظار",
+    "No_Patients":"لا يوجد مرضي",
+    "No_Tests":"لا يوجد تحاليل",
+    "No_Medicines":"لا يوجد ادوية",
+    "No_Labs":"لا يوجد معامل",
+    "No_Doctors":"لا يوجد دكاترة",
+    "No_Pharmacies":"لا يوجد صيدليات",
+    "Categories":{
+  "Cosmetics": "مستحضرات التجميل",
+  "Hair Care": "العناية بالشعر",
+  "Every Day Essentials": "مستلزمات يومية",
+  "Medical Equipment & Supplies": "المعدات والمستلزمات الطبية",
+  "Mom & Baby": "الأم والطفل",
+  "Sexual Health": "الصحة الجنسية",
+  "Medicine": "ادوية",
+  "Skin Care": "العناية بالبشرة"
+}
+  },
+  "ModeToogle":{
+  "title":"اختيار الثيم",
+    "ٍSystem":"الافتراضي",
+    "Dark":"داكن",
+    "Light":"فاتح"     
+  },
+  "Dashboard": {
+    "All_Reservations": "جميع الحجوزات",
+    "All_Orders": "جميع الطلبات",
+    "Jan-Dec": "يناير - ديسمبر",
+    "New_Patients": "المرضى الجدد",
+    "New_Doctors": "الأطباء الجدد",
+    "New_Labs": "المعامل الجديدة",
+    "New_Pharmacies": "الصيدليات الجديدة",
+    "Pending_Labs": "المعامل قيد الانتظار",
+    "Pending_Doctors": "الأطباء قيد الانتظار",
+    "Pending_Pharmacies": "الصيدليات قيد الانتظار",
+    "Total_Patients": "إجمالي المرضى",
+    "reservation": "حجوزات",
+    "Orders": "الطلبات",
+    "order": "طلب"
+  },
+  "TopBarDropMenu":{
+    "MyAccount":"حسابي",
+    "Profile":"الملف الشخصي",
+    "Logout":"تسجيل الخروج"
+  },
+      "doctor": {
+        "title": "لوحة تحكم الطبيب"
+      },
+      "schedule": {
+        "title": "تحديد جدولك",
+        "selectDay": "اختر اليوم",
+        "startTime": "وقت البدء",
+        "endTime": "وقت الانتهاء",
+        "addToSchedule": "أضف إلى الجدول",
+        "currentSchedule": "الجدول الحالي",
+        "sessionCost": "تكلفة الجلسة",
+        "confirmDeletion": "تأكيد الحذف",
+        "deleteConfirmation": "هل أنت متأكد أنك تريد حذف الجدول ليوم {day}؟",
+        "cancel": "إلغاء",
+        "delete": "حذف",
+        "update": "تحديث",
+        "updateSchedule": "تحديث الجدول ليوم {day}",
+        "setSessionCost": "تحديد تكلفة الجلسة",
+        "sessionCostLabel": "تكلفة الجلسة (جنيه مصري)",
+        "setCost": "تحديد التكلفة",
+        "days": {
+          "Monday": "الاثنين",
+          "Tuesday": "الثلاثاء",
+          "Wednesday": "الأربعاء",
+          "Thursday": "الخميس",
+          "Friday": "الجمعة",
+          "Saturday": "السبت",
+          "Sunday": "الأحد"
+        }
+      }
+    }

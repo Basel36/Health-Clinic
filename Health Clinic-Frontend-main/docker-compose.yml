@@ -1,0 +1,18 @@
+volumes:
+  node_modules:
+    driver: local # Define the driver and options under the volume name
+
+services:
+  container:
+    build: ./
+    container_name: clinic-square-frontend
+    ports:
+      - "5173:5173"
+      - "3000:3000"
+      - "5555:5555"
+    volumes:
+      - ./:/app
+      - node_modules:/app/node_modules
+    tty: true
+
+
